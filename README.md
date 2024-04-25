@@ -28,8 +28,10 @@ To cat out all the groups:  ```cat /etc/group```
 
 To get name of the machine ```hostname``` 
 Output : 
-```chris@ubuntu:~$ hostname
-ubuntu```
+```
+chris@ubuntu:~$ hostname
+ubuntu
+```
 
 To change the prompt from ```chris@ubuntu:~$``` to ```MyNewPrompt $``` :
 ```
