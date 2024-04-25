@@ -44,3 +44,18 @@ like :
 MyNewPrompt $ echo $PS1
 MyNewPrompt $
 ```
+
+To see hidden file that start with a dot(.) : ```ls -al```
+
+To make this ```MyNewPrompt $``` permanent even after logging out like :
+```
+MyNewPrompt $ exit
+logout
+ubuntu $ su - chris
+chris@ubuntu:~$
+```
+We do :
+```
+echo PS1="MyNewPrompt $ " >> .bashrc
+```
+To save this we do : ```vim .bashrc``` then head down till we find ```PS1=MyNewPrompt $``` and edit it to ```PS1="MyNewPrompt $"``` then type ```:wq``` to save and quit vim
