@@ -58,4 +58,5 @@ We do :
 ```
 echo PS1="MyNewPrompt $ " >> .bashrc
 ```
-To save this we do : ```vim .bashrc``` then head down till we find ```PS1=MyNewPrompt $``` and edit it to ```PS1="MyNewPrompt $"``` then type ```:wq``` to save and quit vim
+To save this we do : ```vim .bashrc``` then type ```i``` to enter insert mode then head down till we find ```PS1=MyNewPrompt $``` and edit it to ```PS1="MyNewPrompt $"``` then hit ```Esc``` key then type ```:wq``` to save and quit vim
+
